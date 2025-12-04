@@ -32,4 +32,4 @@ src/**/*.spec.ts
 src/**/*.spec.tsx
 coverage
 src/stories/
-src/statistics/
+src/statistics
