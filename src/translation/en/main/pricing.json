@@ -1,0 +1,169 @@
+{
+  "routes": {
+    "table": {
+      "title": "Routes",
+      "sub_title": "You can manage the list of routes available in the system.",
+      "columns": {
+        "routes": "Routes",
+        "distance": "Distance",
+        "duration": "Duration",
+        "prices": "Prices",
+        "status": "Status",
+        "deduction_fee": "Deduction fee"
+      },
+      "actions": {
+        "add_new_route": "New route"
+      },
+      "filters": {
+        "airports": "Airports",
+        "places": "Places",
+        "status": "Status"
+      },
+      "messages": {
+        "delete_title": "Delete route",
+        "delete_message": "Do you really want to delete {{name}} route ?",
+        "success_delete": " The route has been successfully deleted",
+        "success_activate": "The route has been activated",
+        "route_desactivate": "The route has been successfully updated"
+      },
+      "empty": {
+        "title": "There are no route details for routes available at the moment.",
+        "message": "Add or update route information to manage your routes effectively."
+      }
+    },
+    "pricing_form": {
+      "title": "Pricing settings",
+      "labels": {
+        "transfer_type": "Transfer type",
+        "priceAB": "A {{arrow}} B",
+        "priceBA": "B {{arrow}} A"
+      },
+      "messages": {
+        "message": "There are no pricing settings defined for this route",
+        "success_update": "The pricing has been successfully updated"
+      }
+    },
+    "route_form": {
+      "title_add": "Create new route",
+      "title_update": "Edit route",
+      "columns": {
+        "transfer_type": "Transfer type",
+        "priceAB": "A {{arrow}} B",
+        "priceBA": "B {{arrow}} A",
+        "total_price": "A {{arrow}} B"
+      },
+      "labels": {
+        "place_A": "Place A",
+        "place_B": "Place B",
+        "round_trip_deduction": "Round trip price deduction",
+        "currency": "Currency"
+      },
+      "messages": {
+        "success_add": "The new route has been successfully added",
+        "success_update": "The route has been successfully updated"
+      }
+    }
+  },
+  "transfer_zones": {
+    "table": {
+      "title": "Transfer zones",
+      "sub_title": "You can manage the list of transfer zones available in the system.",
+      "columns": {
+        "route": "Route",
+        "prices": "Prices",
+        "deduction_fee": "Deduction fee"
+      },
+      "actions": {
+        "add_new_zone": "New transfer zone"
+      },
+      "filters": {
+        "transfer_zone": "Transfer zone",
+        "airports": "Airports"
+      },
+      "messages": {
+        "delete_title": "Delete zone",
+        "delete_message": "Do you really want to delete {{name}} pricing ?",
+        "success_delete": "The zone has been successfully deleted"
+      },
+      "empty": {
+        "title": "There are currently no pricing details for zones.",
+        "message": "Add or update pricing information to manage your zones effectively."
+      }
+    },
+    "pricing_form": {
+      "title": "Pricing settings",
+      "labels": {
+        "transfer_type": "Transfer type",
+        "priceAB": "A {{arrow}} B",
+        "priceBA": "B {{arrow}} A"
+      },
+      "messages": {
+        "message": "There are no pricing settings defined for this route",
+        "success_update": "The pricing has been successfully updated"
+      }
+    },
+    "transfer_zone_form": {
+      "title_add": "Add new transfer zone",
+      "title_update": "Edit zone",
+      "columns": {
+        "transfer_type": "Transfer type",
+        "priceAB": "A {{arrow}} B",
+        "priceBA": "B {{arrow}} A",
+        "total_price": "A {{arrow}} B"
+      },
+      "labels": {
+        "airport": "Airport",
+        "zone": "Transfer Zone",
+        "origin": "Origin",
+        "destination": "Destination",
+        "zoneA": "Transfer zone A",
+        "zoneB": "Transfer zone B",
+        "deduction": "Round trip deduction",
+        "currency": "Pricing currency"
+      },
+      "messages": {
+        "success_add": "The new zone has been successfully added",
+        "success_update": "The zone has been successfully updated"
+      }
+    }
+  },
+  "vehicle_extra": {
+    "table": {
+      "title": "Vehicle extra",
+      "sub_title": "You can manage the list of vehicle extra available in the system.",
+      "columns": {
+        "name": "Name",
+        "prices": "Prices"
+      },
+      "actions": {
+        "add_new_vehicle_extra": "New vehicle extra"
+      },
+      "filters": {
+        "payment_type": "Placement type"
+      },
+      "messages": {
+        "delete_title": "Delete vehicle extra",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": "The vehicle extra has been successfully deleted"
+      },
+      "empty": {
+        "title": "There are currently no vehicle extras.",
+        "message": "Add or update extra information to manage your vehicle extras effectively."
+      }
+    },
+    "vehicle_extra_form": {
+      "title_add": "Create new vehicle extra",
+      "title_update": "Edit vehicle extra",
+      "labels": {
+        "vehicle_extra": "Vehicle extras",
+        "price": "Price",
+        "currency": "Currency",
+        "payment_type": "Placement type"
+      },
+      "messages": {
+        "success_add": "The new vehicle extra has been successfully added",
+        "success_update": "The vehicle extra has been successfully updated"
+      }
+    }
+  }
+}

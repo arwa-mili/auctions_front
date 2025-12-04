@@ -1,0 +1,42 @@
+{
+  "card_stats": {
+    "carriers": "Carriers",
+    "trips": "Trips",
+    "drivers": "Drivers",
+    "vehicles": "Vehicles",
+    "customers": "Customers",
+    "transfer_requests": "Transfer requests",
+    "trips_by_transfer_types": "Trips by transfer types",
+    "trips_by_booking_purposes": "Trips by trip purposes",
+    "driver_position": "Drivers' positions"
+  },
+  "carrier_applications": {
+    "title": "Carrier applications",
+    "status": {
+      "initiated": "Initiated",
+      "submitted": "Submitted",
+      "in_progress": "In progress",
+      "approved": "Approved",
+      "confirmed": "Confirmed",
+      "rejected": "Rejected"
+    }
+  },
+  "vehicle_applications": {
+    "title": "Vehicle applications",
+    "status": {
+      "initiated": "Initiated",
+      "submitted": "Submitted",
+      "in_progress": "In progress",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    }
+  },
+  "earnings": {
+    "today_earnings": "Today earnings",
+    "top_carrier": "Top carrier by earnings",
+    "last_update": "Last update"
+  },
+  "messages": {
+    "no_data": "No data to display"
+  }
+}

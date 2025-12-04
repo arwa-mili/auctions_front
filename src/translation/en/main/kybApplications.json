@@ -1,0 +1,53 @@
+{
+  "kyb_applications_list": {
+    "table": {
+      "title": "KYC applications",
+      "sub_title": "You can manage the list of KYC applications available in the system.",
+      "columns": {
+        "id": "Id",
+        "company_name": "Company name",
+        "carrier_type": "Carrier type",
+        "fleet_size": "Fleet size",
+        "responsible_contact": "Responsible contact",
+        "responsible_name": "Responsible name",
+        "company_contact": "Company contact",
+        "kyb_status": "KYC status",
+        "sent_at": "Sent at",
+        "website": "Website",
+        "commission": "Commission"
+      },
+      "actions": {
+        "view_details": "View details",
+        "approve": "Approve",
+        "reject": "Reject"
+      },
+      "filters": {
+        "fleet_size": "Fleet size",
+        "kyb_status": "KYC status",
+        "carrier_type": "Carrier type"
+      },
+      "empty": {
+        "title": "No KYC applications received yet.",
+        "message": "Once received, you can approve, review, or reject them as needed."
+      }
+    },
+    "messages": {
+      "reject_request_title": "Reject carrier",
+      "reject_request_message": "Rejecting this carrier will deny their access. This action cannot be undone. Are you sure you want to proceed?",
+      "approve_request_title": "Approve carrier",
+      "approve_request_message": "Approving this carrier will give them access to the system. This action cannot be undone. Are you sure you want to proceed?",
+      "success_approve": "The access request has been successfully approved.",
+      "success_reject": "The access request has been successfully rejected."
+    }
+  },
+  "review_request": {
+    "labels": {
+      "comment": "Comment",
+      "empty_title": "There are currently no data available.",
+      "empty_message": "Please check back later"
+    },
+    "messages": {
+      "success": "The review request has been sent successfully."
+    }
+  }
+}

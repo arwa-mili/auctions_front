@@ -1,0 +1,973 @@
+{
+  "carriers": {
+    "table": {
+      "title": "Carriers",
+      "sub_title": "You can manage the list of carriers available in the system.",
+      "columns": {
+        "id": "ID",
+        "company_name": "Company name",
+        "provider_type": "Carrier type",
+        "responsible_name": "Responsible name",
+        "responsible_contact": "Responsible contact",
+        "company_contact": "Company contact",
+        "website": "Website",
+        "fleet_size": "Fleet size",
+        "payment_schema": "Payment schema",
+        "status": "Status"
+      },
+      "actions": {
+        "new_carrier": "New carrier"
+      },
+      "filters": {
+        "fleet_size": "Fleet size"
+      },
+      "empty": {
+        "title": "You haven’t approved any carriers yet.",
+        "message": "Review and approve carriers to manage your transfers effectively."
+      },
+      "messages": {
+        "update_commission_title": "Update commission",
+        "update_commission_message": "Are you sure you want to proceed?",
+        "success_commission_update": "The commission carrier has been successfully updated",
+        "success_activated": "The carrier has been successfully activated",
+        "success_deactivated": "The carrier has been successfully deactivated",
+        "success_update": "The carrier has been successfully updated"
+      }
+    }
+  },
+  "carrier_form": {
+    "title": "Create new carrier",
+    "edit_title": "Edit carrier",
+    "tabs": {
+      "personal_details": "Personal details",
+      "company_details": "Company details",
+      "socials_accounts": "Social accounts",
+      "documents": "Documents"
+    },
+    "labels": {
+      "company_name": "Company name",
+      "carrier_type": "Carrier type",
+      "phone_number": "Phone number",
+      "date_of_establishment": "Date of establishment",
+      "registration_number": "Registration number",
+      "total_number_of_employee": "Total number of employees",
+      "vehicle_count_range": "How many vehicles in your fleet?",
+      "business_registration_date": "Business registration date"
+    },
+    "placeholders": {
+      "registration_number": "Enter registration number",
+      "total_number_of_employee": "Enter number of employees",
+      "company_name": "Enter your company name",
+      "carrier_type": "Select carrier type",
+      "phone_number": "Enter phone number",
+      "email": "Enter your email",
+      "select_country": "Select country",
+      "select_fleet": "Select number of vehicles",
+      "select_region": "Select region",
+      "select_city": "Select city",
+      "address": "Enter your address",
+      "website": "Enter your website",
+      "first_name": "Enter your first name",
+      "last_name": "Enter your last name",
+      "postal_code": "Enter your postal code"
+    },
+    "messages": {
+      "success_create": "he carrier has been successfully created",
+      "success_update": "The carrier has been successfully updated",
+      "warning_media": "At least one item must be present in the list"
+    }
+  },
+  "carrier_details": {
+    "labels": {
+      "location": "Location",
+      "provider_type": "Carrier type",
+      "fleet_size": "Fleet size",
+      "responsible_name": "Responsible name",
+      "contact": "Contact"
+    },
+    "tabs": {
+      "trips": "Trips",
+      "documents": "Documents",
+      "contract": "Contract",
+      "payment_service_provider": "Payment service provider",
+      "payment_system": "Payment system",
+      "api_access": "API access",
+      "admin_settings": "Admin settings",
+      "audit_trail": "Audit trail",
+      "vehicles": "Vehicles",
+      "template": "Template",
+      "content_management": "Content management",
+      "content_localization": "Content localization"
+    },
+    "vehicles": {
+      "title": "Vehicles",
+      "table": {
+        "columns": {
+          "vehicleInfo": "Vehicle Info",
+          "transfer_type": "Transfer type",
+          "vehicle_type": "Vehicle type",
+          "company": "Company",
+          "capacity": "Capacity",
+          "licencePlate": "Licence plate",
+          "photos": "Photos",
+          "events": "Events",
+          "status": "Status",
+          "number_doors": "Number doors",
+          "vehicle_year": "Vehicle year"
+        },
+        "filters": {
+          "transfer_type": "Transfer type",
+          "vehicle_type": "Vehicle type",
+          "brand": "Brand",
+          "model": "Model"
+        },
+        "empty": {
+          "title": "You haven’t created any vehicles yet.",
+          "message": "Start by adding a vehicle to manage your transfers."
+        }
+      }
+    },
+    "trips": {
+      "title": "Trips",
+      "table": {
+        "columns": {
+          "trip_number": "Trip number",
+          "trip_purpose": "Trip purpose",
+          "trip_type": "Trip type",
+          "trip_status": "Trip status",
+          "vehicle": "Vehicle",
+          "driver": "Driver",
+          "passenger_count": "Passenger count",
+          "luggage_count": "Luggage count",
+          "pick_up": "Pick-up",
+          "drop_off": "Drop-off"
+        },
+        "tooltips": {
+          "flight_number": "Flight number",
+          "airline": "Airline"
+        },
+        "filters": {
+          "trip_purpose": "Trip purpose",
+          "trip_type": "Trip type",
+          "trip_status": "Trip status",
+          "vehicle": "Vehicle",
+          "driver": "Driver",
+          "pick_up_from": "Pick-up from",
+          "to": "To",
+          "drop_off_from": "Drop-off from"
+        },
+        "empty": {
+          "title": "No trips!",
+          "message": "There are no trips listed at the moment."
+        }
+      }
+    },
+    "documents": {
+      "labels": {
+        "passenger_insurance": "Passenger insurance",
+        "business_registration": "Business registration"
+      }
+    },
+    "contact": {
+      "empty": {
+        "message": "There are no contact at the moment."
+      }
+    },
+    "admin_settings": {
+      "title": "Payment schema",
+      "labels": {
+        "commission": "Set system commission(%)"
+      },
+      "messages": {
+        "success_update": "The carrier has been successfully updated"
+      }
+    },
+    "audit_trail": {
+      "table": {
+        "columns": {
+          "device": "Device",
+          "browser": "Browser",
+          "action": "Activity",
+          "ipAddress": "From Ip address",
+          "createdAt": "Action date"
+        },
+        "empty": {
+          "title": "There are currently no audit trail available.",
+          "message": "Please check back later"
+        }
+      }
+    },
+    "payment_service_provider": {
+      "table": {
+        "columns": {
+          "name": "Name",
+          "supported_languages": "Supported languages",
+          "supported_currencies": "Supported currencies",
+          "currency_symbol": "Symbol",
+          "currency_name": "Name",
+          "fees": "Fees",
+          "profile": "Profile"
+        },
+        "tooltips": {
+          "fees": {
+            "name": "Fees",
+            "value": "Value",
+            "international": "Provider international fees",
+            "national": "Provider national fees",
+            "international_system": "System international fees",
+            "national_system": "System national fees"
+          }
+        },
+        "empty": {
+          "title": "There are no payment configuration listed at the moment.",
+          "message": "Add new payment configuration  or check back later for updates."
+        }
+      }
+    },
+    "payment_system": {
+      "table": {
+        "columns": {
+          "name": "Name",
+          "payment_provider": "Payment provider",
+          "payment_system_method": "Payment system method",
+          "calculation": "Calculation",
+          "message": "In order to enable / disable a payment system for this partner you should go to ‘Admin Checkout’ and update its payment settings."
+        },
+        "calculation_mode": {
+          "perunit": "First night",
+          "percentage": "Percentage",
+          "fixedamount": "Fixed amount"
+        },
+        "empty": {
+          "title": "There are no payment configuration listed at the moment.",
+          "message": "Add new payment configuration  or check back later for updates."
+        }
+      }
+    },
+    "api_access": {
+      "labels": {
+        "sub_merchant": "Sub-merchant ID",
+        "client": "Client ID",
+        "client_secret": "Client secret"
+      },
+      "placeholders": {
+        "sub_merchant": "Enter the sub-merchant ID",
+        "client": "Enter client ID",
+        "client_secret": "Enter client secret"
+      }
+    },
+    "template": {
+      "title": "Template",
+      "sub_title": "Provide a customized template access for your B2C client. We recommend to use branding style of your property (colors, logo) that matches your identity.",
+      "tabs": {
+        "colors": "Colors",
+        "logos": "Logos",
+        "fonts": "Fonts",
+        "template": "Template"
+      },
+      "empty": {
+        "title": "Template not available yet!",
+        "sub_title": "We’re still working on this template. Please check back soon!"
+      },
+      "buttons": {
+        "publish": "Publish",
+        "select": "Select",
+        "selected": "Selected"
+      },
+      "labels": {
+        "preview": "Preview"
+      },
+      "tooltips": {
+        "start_publish": "Start publish",
+        "end_publish": "End publish",
+        "stages": "Stages",
+        "build": "Build",
+        "deploy": "Deploy",
+        "refresh": "Refresh"
+      },
+      "messages": {
+        "success_update": "The template configuration has been successfully updated",
+        "success_published": "The template has been successfully published"
+      },
+      "preview": {
+        "light": "Light",
+        "dark": "Dark"
+      },
+      "primary_color": {
+        "title": "Primary color",
+        "sub_title": "Override or set key colors that will be used to generate tonal palettes",
+        "main_light": "Main (light mode)",
+        "contrast_text_light": "Contrast text (light mode)",
+        "main_dark": "Main (dark mode)",
+        "contrast_text_dark": "Contrast text (dark mode)"
+      },
+      "fonts": {
+        "heading": "Heading",
+        "paragraph": "Paragraph",
+        "title": "Typography",
+        "heading_preview": "This is a Heading Preview",
+        "sub_title": "Select and customize the fonts used across your website to maintain style consistency and readability",
+        "select_font": "Select font"
+      },
+      "secondary_color": {
+        "title": "Secondary color",
+        "sub_title": "Override or set key colors that will be used to generate tonal palettes",
+        "main_light": "Main (light mode)",
+        "contrast_text_light": "Contrast text (light mode)",
+        "main_dark": "Main (dark mode)",
+        "contrast_text_dark": "Contrast text (dark mode)"
+      },
+      "accent_color": {
+        "title": "Accent color",
+        "sub_title": "Override or set key colors that will be used to generate tonal palettes",
+        "main_light": "Main (light mode)",
+        "contrast_text_light": "Contrast text (light mode)",
+        "main_dark": "Main (dark mode)",
+        "contrast_text_dark": "Contrast text (dark mode)"
+      },
+      "tertiary_color": {
+        "title": "Tertiary color",
+        "sub_title": "Override or set key colors that will be used to generate tonal palettes",
+        "main_light": "Main (light mode)",
+        "contrast_text_light": "Contrast text (light mode)",
+        "main_dark": "Main (dark mode)",
+        "contrast_text_dark": "Contrast text (dark mode)"
+      },
+      "logo_icons": {
+        "title": "Logo & Icons",
+        "sub_title": "We recommend you set a white or transparent background when uploading a logo & icons.",
+        "icon": "Logo",
+        "logo_light": "Logo light",
+        "logo_dark": "Logo dark",
+        "favicon": "Favicon",
+        "alerts": {
+          "alert1": "We recommend you set a white or transparent background when uploading a logo. Max image size is 2 MB. Supported formats: JPG, PNG and GIF.",
+          "alert2": "We recommend you upload file in format SVG, PNG, JPG or GIF. Ideally, the max size of image is 1280x1024 pixels."
+        }
+      }
+    },
+    "content_management": {
+      "title": "Content Management",
+      "sub_title": "Here you can provide the content to be available for website users.",
+      "buttons": {
+        "publish": "Publish",
+        "preview": "Preview"
+      },
+      "seo": {
+        "title": "SEO",
+        "labels": {
+          "document_title": "Document title (<title>)",
+          "page_title": "Page title (<h1>)",
+          "page_description": "Page description (META Description)"
+        },
+        "placeholders": {
+          "document_title": "Enter SEO title",
+          "page_title": "Enter page title",
+          "page_description": "Enter description"
+        },
+        "tooltips": {
+          "document_title": "Title tag lets the search engine know about the content of the page. It is displayed in a browser window header.It is an online identity of yor website. The header plays a vital role to attract the visitors.It should be informative, up to date and contain keywords.Title tag must not be longer than 10 words.",
+          "page_title": "This text will be incorporated in the H1 tag and written in the largest font on this page. This text will briefly describe the content of this page.",
+          "page_description": "Search engines use META Descriptions tags or pick text fragments to identify page content.It is reasonable to include your property benefits into the tag text. The recommended length of text is 150-200 characters including spaces."
+        }
+      },
+      "messages": {
+        "title_section_delete": "Delete section(s)",
+        "message_section_delete": "Do you really want to delete the selected section",
+        "title_images_delete": "Delete photo(s)",
+        "message_images_delete": "Do you really want to delete the selected photo(s)",
+        "update_images_order": "Images have been successfully re-ordered",
+        "delete_images": "The images has been successfully deleted",
+        "update_folder_order": "Folder have been successfully re-ordered",
+        "moved_images": "The photo(s) has been moved to the selected folder",
+        "update_items_order": "Items have been successfully re-ordered",
+        "success_enabled": "{{name}} has been enabled successfully",
+        "success_disabled": "{{name}} has been disabled successfully"
+      },
+      "pages": {
+        "landing_page": "Landing page",
+        "about_us_page": "About us",
+        "services_page": "Services",
+        "fleet_page": "Fleet page",
+        "destinations_page": "Destinations",
+        "contact_page": "Contact",
+        "faqs_page": "FAQs",
+        "privacy_policy_page": "Privacy policy",
+        "terms_and_conditions_page": "Terms & conditions",
+        "reviews_page": "Reviews",
+        "newsletter": "Newsletter",
+        "footer": "Footer",
+        "booking_rules_page": "Booking rules"
+      },
+      "landing_page": {
+        "title_main_page": "Landing page",
+        "title_slide_show": "Slide show",
+        "columns": {
+          "destination": "Destination",
+          "price": "Price",
+          "block": "Block",
+          "active": "Active",
+          "title": "Title",
+          "icon": "Icon",
+          "displayed": "Displayed",
+          "category": "Category",
+          "description": "Description",
+          "nbr_of_seats": "Number of seats",
+          "luggage_capacity": "Luggage capacity",
+          "questions": "Questions",
+          "question": "Question",
+          "answer": "Answer",
+          "type": "Type",
+          "trip_count": "Trip count",
+          "country": "Country",
+          "photos": "Photos",
+          "name": "Name",
+          "logo": "Logo"
+        },
+        "labels": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "key_benefits": "Key benefits",
+          "displayed_key_benefits": "Display key benefits",
+          "displayed_overview": "Display overview",
+          "media_mode": "Mode",
+          "show_images_gallery": "Images",
+          "show_single_image": "Image",
+          "show_video": "Video",
+          "video_url": "Video url",
+          "photo": "Photo",
+          "gallery": "Gallery",
+          "description": "Description",
+          "years_of_exp": "Years of experience",
+          "fleet_size": "Fleet size",
+          "satisfied_customers": "Satisfied customers",
+          "professional_teams": "Professional teams",
+          "overview": "Overview"
+        },
+        "placeholders": {
+          "title": "Enter title",
+          "subtitle": "Enter subtitle",
+          "description": "Enter description",
+          "years_of_exp": "Enter years of experience (e.g. +15)",
+          "fleet_size": "Enter fleet size (e.g. +150)",
+          "satisfied_customers": "Enter number of satisfied customers (e.g. 10,000+)",
+          "professional_teams": "Enter team size (e.g. 50+)"
+        },
+        "messages": {
+          "delete_title": "Delete key benefit",
+          "delete_message": "Do you really want to delete {{name}} ?",
+          "success_deleted": "The key benefit has been successfully deleted",
+          "success_updated": "The landing page has been successfully updated"
+        },
+        "empty": {
+          "title": "No data found",
+          "message": "No data found at this time. We're actively collecting the information you're looking for. Stay connected for further updates."
+        },
+        "buttons": {
+          "add_new_key": "Add new key"
+        },
+        "key_benefit_form": {
+          "title_add": "Add new key benefit",
+          "title_update": "Update key benefit",
+          "labels": {
+            "title": "Title",
+            "icon": "Icon",
+            "description": "Description"
+          },
+          "placeholders": {
+            "title": "Enter title...",
+            "description": "Enter description..."
+          },
+          "messages": {
+            "success_updated": "The key benefit has been successfully updated",
+            "success_created": "The key benefit has been successfully created"
+          }
+        }
+      },
+      "about_us_page": {
+        "banner_title": "Banner",
+        "about_us_section_title": "About us section",
+        "benefits_section_title": "Benefits section",
+        "landing_page_title": "Landing page",
+        "labels": {
+          "heading": "Heading",
+          "text": "Text",
+          "text_main_page": "Text on landing page",
+          "enable_benefits": "Enable benefits",
+          "title": "Title",
+          "title_main_page": "Title on landing page"
+        },
+        "placeholders": {
+          "heading": "Enter heading (e.g. About us)",
+          "benefits_title": "Enter title (e.g. Why Choose Us ?)",
+          "text": "Enter text..."
+        },
+        "messages": {
+          "success_updated": "The about us page has been successfully updated"
+        }
+      },
+      "services_page": {
+        "services_section_title": "Services section",
+        "extra_services_section_title": "Extra services section",
+        "messages": {
+          "success_updated": "The services page has been successfully updated",
+          "delete_message": "Do you really want to delete {{name}} ?",
+          "delete_title_service": "Delete service",
+          "success_deleted_service": "The service has been successfully deleted",
+          "delete_title_extra_service": "Delete extra service",
+          "success_deleted_extra_service": "The extra service has been successfully deleted",
+          "extra_services_synchronized": "Extra services have been successfully synchronized",
+          "success_updated_extra_service_display": "The extra service display status has been successfully updated"
+        },
+        "buttons": {
+          "add_new_service": "Add new service",
+          "add_new_extra_service": "Add new extra services",
+          "sync_services": "Synchronize"
+        },
+        "labels": {
+          "button": "Button label on landing page",
+          "services": "Services",
+          "enable_section": "Enable section",
+          "extra_services": "Extra services",
+          "enable_faq_section": "Enable FAQs section",
+          "enable_page": "Enable page"
+        },
+        "placeholders": {
+          "title": "Enter heading (e.g. Services)",
+          "title_main_page": "Enter heading (e.g. Services)",
+          "button": "Enter button text (e.g. See more services)",
+          "extra_service_title": "Enter title (e.g. Additional services)"
+        },
+        "extra_service_form": {
+          "title_add": "Add new extra service",
+          "title_update": "Update extra service",
+          "labels": {
+            "category": "Category",
+            "amenities": "Amenities",
+            "policies": "Policies",
+            "displayed": "Displayed"
+          },
+          "placeholders": {
+            "select": "Select"
+          },
+          "messages": {
+            "success_updated": "The extra service has been successfully updated",
+            "success_created": "The extra service has been successfully created"
+          }
+        },
+        "service_form": {
+          "title_add": "Add new service",
+          "title_update": "Update service",
+          "labels": {
+            "background_images": "Background images",
+            "image": "Image"
+          },
+          "placeholders": {
+            "select": "Select"
+          },
+          "messages": {
+            "success_updated": "The service has been successfully updated",
+            "success_created": "The service has been successfully created",
+            "delete_title_transfer_type": ""
+          }
+        }
+      },
+      "fleet_page": {
+        "fleet_section_title": "Fleet section",
+        "buttons": {
+          "sync_transfer_types": "Synchronize",
+          "add_new_transfer_type": "Add new transfer type",
+          "sync_vehicles": "Sync vehicles",
+          "add_new_vehicle": "Add new vehicle"
+        },
+        "labels": {
+          "transfer_types": "Transfer types",
+          "vehicles": "Vehicles"
+        },
+        "placeholders": {
+          "title_main_page": "Enter title (e.g. Vehicles)",
+          "button": "Enter button text (e.g. See all vehicles)"
+        },
+        "messages": {
+          "success_deleted_vehicle": "The vehicle has been successfully deleted",
+          "vehicles_synchronized": "Vehicles have been successfully synchronized",
+          "delete_title_vehicle": "Delete vehicle",
+          "delete_title_transfer_type": "Delete transfer type",
+          "transfer_types_synchronized": "Transfer types have been successfully synchronized",
+          "success_updated": "The fleet page has been successfully updated",
+          "success_deleted_transfer_type": "The transfer type has been successfully deleted"
+        },
+        "transfer_type_form": {
+          "title_update": "Update transfer type",
+          "title_add": "Add transfer type",
+          "labels": {
+            "number_of_seats": "Number of seats",
+            "luggage_capacity": "Luggage capacity"
+          },
+          "placeholders": {
+            "number_of_seats": "e.g. 5",
+            "luggage_capacity": "e.g. 2"
+          },
+          "messages": {
+            "success_created": "The transfer type has been successfully created",
+            "success_updated": "The transfer type has been successfully updated"
+          }
+        },
+        "vehicle_form": {
+          "title_update": "Update vehicle",
+          "title_add": "Add new vehicle",
+          "messages": {
+            "success_updated": "The vehicle has been successfully updated",
+            "success_created": "The vehicle has been successfully created"
+          }
+        }
+      },
+      "reviews_page": {
+        "reviews_section_title": "Reviews section",
+        "placeholders": {
+          "title_main_page": "Enter title (e.g. Reviews)",
+          "button": "Enter button text (e.g. See all reviews)"
+        },
+        "messages": {
+          "success_updated": "The reviews page has been successfully updated"
+        }
+      },
+      "terms_page": {
+        "terms_section_title": "Terms and conditions section",
+        "labels": { "text": "Text", "terms": "Terms of use" },
+        "placeholders": {
+          "text": "Enter text..."
+        },
+        "buttons": {
+          "add_new_term": "Add new term of use"
+        },
+        "messages": {
+          "delete_title_term": "Delete term of use",
+          "success_deleted": "The term of use has been successfully deleted",
+          "success_updated": "The terms & conditions page has been successfully updated"
+        },
+        "term_form": {
+          "title_update": "Update term of use",
+          "title_add": "Add term of use",
+          "messages": {
+            "success_created": "The term of use has been successfully created",
+            "success_updated": "The term of use has been successfully updated"
+          }
+        }
+      },
+      "booking_rules_page": {
+        "rules_section_title": "Booking rules section",
+        "labels": { "text": "Text", "rules": "Booking rules" },
+        "placeholders": {
+          "text": "Enter text..."
+        },
+        "buttons": {
+          "add_new_rule": "Add new booking rule"
+        },
+        "messages": {
+          "delete_title_rule": "Delete booking rule",
+          "success_deleted": "The booking rule has been successfully deleted",
+          "success_updated": "The booking rules page has been successfully updated"
+        },
+        "rule_form": {
+          "title_update": "Update booking rule",
+          "title_add": "Add booking rule",
+          "messages": {
+            "success_created": "The booking rule has been successfully created",
+            "success_updated": "The booking rule has been successfully updated"
+          }
+        }
+      },
+      "policy_page": {
+        "policies_section_title": "Privacy policy section",
+        "labels": { "text": "Text", "policies": "Policies" },
+        "placeholders": {
+          "text": "Enter text..."
+        },
+        "buttons": {
+          "add_new_policy": "Add new policy"
+        },
+        "messages": {
+          "delete_title_policy": "Delete policy",
+          "success_deleted": "The policy has been successfully deleted",
+          "success_updated": "The privacy policy page has been successfully updated"
+        },
+        "policy_form": {
+          "title_update": "Update policy",
+          "title_add": "Add policy",
+          "messages": {
+            "success_created": "The policy has been successfully created",
+            "success_updated": "The policy has been successfully updated"
+          }
+        }
+      },
+      "faq_page": {
+        "faq_section_title": "FAQs section",
+        "buttons": {
+          "add_new_category": "Add new category",
+          "add_new_question": "Add new question"
+        },
+        "labels": {
+          "categories": "Categories",
+          "questions": "Questions"
+        },
+        "placeholders": {
+          "title_main_page": "Enter title (e.g. FAQs)",
+          "text": "Enter text..."
+        },
+        "messages": {
+          "success_updated": "The FAQs page has been successfully updated",
+          "delete_title_category": "Delete category",
+          "success_deleted_category": "The category has been successfully deleted",
+          "delete_title_question": "Delete question",
+          "success_deleted_faq": "The FAQ has been successfully deleted"
+        },
+        "category_form": {
+          "title_update": "Update category",
+          "title_add": "Add category",
+          "labels": { "category_name": "Category name" },
+          "placeholders": { "category_name": "Enter category name..." },
+          "messages": {
+            "success_updated": "The category has been successfully updated",
+            "success_created": "The category has been successfully created"
+          }
+        },
+        "question_form": {
+          "title_add": "Add FAQ",
+          "title_update": "Update FAQ",
+          "labels": { "question": "Question", "answer": "Answer" },
+          "placeholders": {
+            "question": "Enter a question...",
+            "answer": "Enter the answer..."
+          },
+          "messages": {
+            "success_updated": "The FAQ has been successfully updated",
+            "success_created": "The FAQ has been successfully created"
+          }
+        }
+      },
+      "contact_page": {
+        "landing_page_content": "Landing page content",
+        "contact_us_section": "Contact us section",
+        "contact_form": "Contact form",
+        "social_links": "Social links",
+        "map_section": "Map section",
+        "buttons": {
+          "add_new_location": "Add new location",
+          "add_new_address": "Add new address",
+          "add_new_phone_number": "Add new phone number",
+          "add_new_messaging_contact": "Add new messaging contact"
+        },
+        "labels": {
+          "enable_map": "Enable map",
+          "longitude": "Longitude",
+          "latitude": "Latitude",
+          "locations": "Locations",
+          "location": "Location",
+          "phone": "Phone number",
+          "buttonLabel": "Button label",
+          "addresses": "Addresses",
+          "phone_numbers": "Phone numbers",
+          "messaging_contacts": "Messaging contacts",
+          "address": "Address",
+          "text": "Text",
+          "phone_number": "Phone number",
+          "contact": "Contact"
+        },
+        "placeholders": {
+          "latitude": "Enter latitude",
+          "longitude": "Enter locations",
+          "phone": "+216",
+          "buttonLabel": "Enter button label (e.g. Contact us)",
+          "text": "Enter text..",
+          "address": "Enter address..",
+          "phone_number": "Enter phone number..",
+          "contact": "Enter contact"
+        },
+        "messages": {
+          "success_updated": "The contact us page has been successfully updated"
+        }
+      },
+      "destinations_page": {
+        "popular_destinations_section_title": "Popular destinations section",
+        "destinations_section_title": "Destinations section",
+        "empty": {
+          "title": "No destinations found",
+          "message": "Check back later for updates."
+        },
+        "messages": {
+          "success_updated": "The destinations page has been successfully updated",
+          "success_deleted_destination": "The destination has been successfully deleted",
+          "popular_destinations_synchronized": "Popular destinations have been successfully synchronized"
+        },
+        "buttons": {
+          "sync_popular_destinations": "Synchronize",
+          "add_new_destination": "Add new destination"
+        },
+        "tooltips": {
+          "sync_tooltip": "We'll synchronize your popular destinations based on your completed transfers. Only top 10 destinations will be synchronized. Press the button 'synchronize' to update the list."
+        },
+        "labels": {
+          "destinations": "Destinations",
+          "popular_destinations": "Popular destinations"
+        },
+        "placeholders": {
+          "button": "Enter button text (e.g. See all destinations)",
+          "title": "Enter title (e.g. Destinations)",
+          "title_main_page": "Enter heading (e.g. Destinations)",
+          "popular_destination_title": "Enter title (e.g. Popular destinations)"
+        },
+        "destination_form": {
+          "messages": {
+            "success_created": "The destination has been successfully created",
+            "success_updated": "The destination has been successfully updated"
+          },
+          "title_add": "Add destination",
+          "title_update": "Update destination",
+          "labels": {
+            "prices_from": "Prices from <span>{{price}}</span>",
+            "destination": "Destination",
+            "suggested_destinations": "Suggested destinations",
+            "airport": "Airport",
+            "place": "Place",
+            "price": "Price",
+            "currency": "Currency",
+            "type": "Type"
+          },
+          "placeholders": {
+            "suggested_destinations": "Search by keyword, airport, place .."
+          }
+        },
+        "photos_form": {
+          "title_upload": "Upload destination photos",
+          "messages": {
+            "success_updated": "The destination's photos have been successfully updated"
+          }
+        }
+      },
+      "newsletter": {
+        "newsletter_section": "Newsletter section",
+        "labels": {
+          "enable_section": "Enable section",
+          "title": "Title",
+          "description": "Description"
+        },
+        "placeholders": {
+          "description": "Enter description...",
+          "title": "Enter title (e.g. Newsletter)"
+        },
+        "messages": {
+          "success_updated": "The newsletter section has been successfully updated"
+        }
+      },
+      "footer": {
+        "footer_section": "Footer section",
+        "buttons": { "add_new_payment_method": "Add new payment method" },
+        "labels": {
+          "slogan": "Slogan",
+          "payment_methods": "Payment methods"
+        },
+        "placeholders": {
+          "slogan": "Enter slogan"
+        },
+        "messages": {
+          "delete_title_payment_method": "Delete payment method",
+          "success_updated": "The footer content has been successfully updated",
+          "success_deleted_payment_method": "The payment method has been successfully deleted"
+        },
+        "empty": {
+          "message": "No data found at this time. We're actively collecting the information you're looking for. Stay connected for further updates.",
+          "title": "No data found"
+        },
+        "payment_method_form": {
+          "title_update": "Update payment method",
+          "title_add": "Add payment method",
+          "messages": {
+            "success_updated": "The payment method has been successfully updated",
+            "success_created": "The payment method has been successfully created"
+          },
+          "labels": {
+            "name": "Name",
+            "logo": "Logo"
+          },
+          "placeholders": { "name": "Enter name" }
+        }
+      }
+    },
+    "content_localization": {
+      "title": "Content Localization",
+      "sub_title": "Let your website content available in multi-languages. It will be more comfortable for users to know about you in their preferable language.",
+      "labels": {
+        "translate_to": "Translate to"
+      },
+      "alerts": {
+        "warning": "The section <strong>{{group}}</strong> is not fully translated. Translate it into <strong>{{language}}</strong> and attract foreign users."
+      },
+      "empty": {
+        "title": "There are no content localization available at the moment.",
+        "message": "Check back later for updates.",
+        "title_active_language": "There are no active language available at the moment.",
+        "message_active_language": "Active language is the language in which your website is currently displayed. You can change it in the <a>Settings</a> section."
+      },
+      "group": {
+        "empty": {
+          "title": "There are no translation available at the moment."
+        }
+      },
+      "buttons": {
+        "settings": "Settings"
+      },
+      "legend_form": {
+        "title": "Legend: Translation settings",
+        "translate": {
+          "translate": "Translate",
+          "title": "The 'Translate' button",
+          "description": "It appears when you click on the translation field. By clicking on this button, the text will be translated automatically."
+        },
+        "actions": {
+          "title": "Translation confirmed or cancelled",
+          "description": "Buttons appear when you click on the translation field. The tick button confirms the translation. The eraser button resets the made changes."
+        },
+        "input_orange": {
+          "title": "Orange mark",
+          "description": "It shows that there is no translation or the translation was done automatically but has not been confirmed by a user."
+        },
+        "input_green": {
+          "title": "Green mark",
+          "description": "It shows that the translation has been confirmed by a user."
+        },
+        "dot_orange": {
+          "title": "Orange indicator in the menu on the left",
+          "description": "It shows that there are texts in the section without translation."
+        },
+        "dot_green": {
+          "title": "Green indicator in the menu on the left",
+          "description": "It shows that all texts in the section have translation."
+        },
+        "dot_grey": {
+          "title": "Grey indicator in the menu on the left",
+          "description": "It shows that there is no texts in the section to be translated."
+        }
+      },
+      "settings_languages_form": {
+        "title": "Settings",
+        "labels": {
+          "website_languages": "Website Languages",
+          "website_currencies": "Website currencies"
+        },
+        "columns": {
+          "name": "Name",
+          "active": "Active",
+          "popular": "Popular"
+        },
+        "empty": {
+          "title": "There are no settings available at the moment.",
+          "message": "Check back later for updates."
+        },
+        "messages": {
+          "success_update": "The settings updated successfully."
+        }
+      }
+    }
+  }
+}

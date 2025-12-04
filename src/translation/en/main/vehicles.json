@@ -1,0 +1,224 @@
+{
+  "approved_vehicles": {
+    "table": {
+      "title": "Vehicles",
+      "sub_title": "You can manage the list of vehicles available in the system.",
+      "columns": {
+        "vehicle_info": "Vehicle Info",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "company": "Company",
+        "capacity": "Capacity",
+        "licence_plate": "Licence plate",
+        "vehicle_year": "Vehicle year",
+        "events": "Events",
+        "status": "Status",
+        "number_doors": "Number doors"
+      },
+      "actions": {
+        "add_new_vehicle": "New vehicle"
+      },
+      "filters": {
+        "carrier": "Carrier",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "brand": "Brand",
+        "model": "Model",
+        "status": "Status"
+      },
+      "empty": {
+        "title": "There are no approved vehicles listed at the moment.",
+        "message": "Add new vehicle or check back later for updates."
+      },
+      "messages": {
+        "success_activated": "The vehicle has been successfully activated",
+        "success_deactivated": "The vehicle has been successfully deactivated"
+      }
+    }
+  },
+  "rejected_vehicles": {
+    "table": {
+      "title": "Vehicles",
+      "sub_title": "You can manage the list of vehicles available in the system.",
+      "columns": {
+        "vehicle_info": "Vehicle Info",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "company": "Company",
+        "capacity": "Capacity",
+        "licence_plate": "Licence plate",
+        "vehicle_year": "Vehicle year",
+        "number_doors": "Number doors"
+      },
+      "filters": {
+        "carrier": "Carrier",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "brand": "Brand",
+        "model": "Model",
+        "status": "Status"
+      },
+      "empty": {
+        "title": "There are no rejected vehicles listed at the moment.",
+        "message": "Check back later for updates."
+      },
+      "messages": {
+        "delete_title": "Delete vehicle",
+        "delete_message": "Do you really want to delete vehicle ?",
+        "success_deleted": "The vehicle has been successfully deleted"
+      }
+    }
+  },
+  "submitted_vehicles": {
+    "table": {
+      "title": "Vehicles",
+      "sub_title": "You can manage the list of vehicles available in the system.",
+      "columns": {
+        "vehicle_info": "Vehicle Info",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "company": "Company",
+        "capacity": "Capacity",
+        "licence_plate": "Licence plate",
+        "vehicle_year": "Vehicle year",
+        "number_doors": "Number doors"
+      },
+      "filters": {
+        "carrier": "Carrier",
+        "transfer_type": "Transfer type",
+        "vehicle_type": "Vehicle type",
+        "brand": "Brand",
+        "model": "Model",
+        "status": "Status"
+      },
+      "empty": {
+        "title": "There are no submitted vehicles listed at the moment.",
+        "message": "Check back later for updates."
+      },
+      "messages": {
+        "reject_request_title": "Reject vehicle",
+        "reject_request_message": "Rejecting this vehicle will deny their access. This action cannot be undone. Are you sure you want to proceed?",
+        "success_rejected": "The vehicle has been successfully rejected",
+        "approve_request_title": "Approve vehicle",
+        "approve_request_message": "Approving this vehicle will give them access to the system. Are you sure you want to proceed?",
+        "success_approved": "The vehicle has been successfully approved"
+      }
+    }
+  },
+  "vehicle_from": {
+    "title_add": "Create new vehicle",
+    "title_edit": "Edit vehicle",
+    "tabs": {
+      "vehicle_info": "Vehicle info",
+      "documents": "Documents",
+      "photos": "Photos",
+      "features": "Features"
+    },
+    "labels": {
+      "carrier": "Carrier",
+      "transfer_type": "Transfer type",
+      "vehicle_type": "Vehicle type",
+      "vehicle_brand": "Vehicle brand",
+      "vehicle_model": "Vehicle model",
+      "year": "Year",
+      "color": "Color",
+      "license_plate": "License plate",
+      "vehicle_mileage": "Vehicle mileage",
+      "seats_number": "Seats number",
+      "doors_number": "Doors number",
+      "vin_number": "VIN number",
+      "luggages_places_number": "Luggages places number",
+      "insurance_expiration": "Insurance expiration",
+      "technical_inspection": "Technical inspection certificate expiration",
+      "description": "Description",
+      "amenities": "Amenities",
+      "policies": "Policies",
+      "services": "Services",
+      "child_seat": "Child seat",
+      "quantity": "Quantity",
+      "amount": "Amount",
+      "short_description": "Short description",
+      "rear_facing_seat": "Rear-facing seat",
+      "forward_facing_seat": "Forward-facing seat",
+      "booster_seat": "Booster seat",
+      "vehicle_insurance": "Vehicle insurance",
+      "vehicle_registration_tax": "Vehicle registration tax",
+      "vehicle_technical_inspection_certificate": "Vehicle technical inspection certificate",
+      "vehicle_registration_certificate": "Vehicle registration certificate",
+      "external_photos": "External photos",
+      "internal_photos": "Internal photos",
+      "luggage_photo": "Luggage photos",
+      "frontal_photo": "Frontal photo",
+      "rear_photo": "Rear photo",
+      "left_side_photo": "Left side photo",
+      "right_side_photo": "Right side photo",
+      "dashboard_photo": "Dashboard photo",
+      "seats_photo": "Seats photos",
+      "upload_frontal_photo": "<span>Upload </span> or <span>drag and drop </span> the front photo of the vehicle.",
+      "upload_rear_photo": "<span>Upload </span> or <span>drag and drop  </span> the rear photo of the vehicle.",
+      "upload_left_photo": "<span>Upload </span> or <span>drag and drop  </span> the left side photo of the vehicle. ",
+      "upload_right_photo": "<span>Upload </span> or <span>drag and drop  </span> the right side photo of the vehicle.",
+      "upload_dashboard_photo": "<span>Upload </span> or <span>drag and drop  </span> the dashboard  photo of the vehicle. ",
+      "upload_seats_photo": "<span>Upload </span> or <span>drag and drop  </span> one or  more photos of the vehicle's seats.",
+      "upload_luggage_photo": "<span>Upload </span> or <span>drag and drop  </span> one or more photos of the luggage compartment."
+    },
+    "placeholders": {
+      "carrier": "Select carrier",
+      "transfer_type": "Select transfer type",
+      "vehicle_type": "Select vehicle type",
+      "vehicle_brand": "Select vehicle brand",
+      "vehicle_model": "Select vehicle model",
+      "color": "Select color",
+      "license_plate": "Enter license plate",
+      "description": "Enter description...",
+      "short_description": "Enter short description"
+    },
+    "tooltips": {
+      "vehicle_registration_tax": "Upload or drag and drop the vehicle registration tax document.",
+      "vehicle_technical_inspection_certificate": "Upload or drag and drop the vehicle technical inspection certificate.",
+      "vehicle_registration_back_certificate": "Upload or drag and drop the back side of the vehicle registration certificate.",
+      "vehicle_registration_certificate": "Upload or drag and drop the vehicle registration certificate",
+      "vehicle_insurance": "Upload or drag and drop the vehicle insurance certificate"
+    },
+    "messages": {
+      "success_created": "The vehicle has been successfully created",
+      "success_updated": "The vehicle has been successfully updated"
+    }
+  },
+  "vehicle_details": {
+    "tabs": {
+      "vehicle_info": "Vehicle info",
+      "carrier_details": "Carrier details",
+      "photos": "Photos",
+      "documents": "Documents"
+    },
+    "labels": {
+      "transfer_type": "Transfer type",
+      "vehicle_type": "Vehicle type",
+      "vehicle_brand": "Vehicle brand",
+      "vehicle_model": "Vehicle model",
+      "luggages_places_number": "Luggages places number",
+      "license_plate": "License plate",
+      "vehicle_mileage": "Vehicle mileage",
+      "seats_number": "Seats number",
+      "doors_number": "Doors number",
+      "vin_number": "VIN number",
+      "year": "Year",
+      "insurance_expiration": "Insurance expiration",
+      "technical_inspection": "Technical inspection certificate expiration",
+      "company_name": "Company name",
+      "provider_type": "Carrier type",
+      "phone_number": "Phone number",
+      "email": "Email",
+      "fleet_size": "Fleet size",
+      "website": "Website",
+      "external_photos": "External photos",
+      "internal_photos": "Internal photos",
+      "luggage_photo": "Luggage photos",
+      "vehicle_insurance": "Vehicle insurance",
+      "vehicle_registration_tax": "Vehicle registration tax",
+      "vehicle_technical_inspection_certificate": "Vehicle technical inspection certificate",
+      "vehicle_registration_certificate": "Vehicle registration certificate"
+    }
+  }
+}

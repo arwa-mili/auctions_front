@@ -1,99 +1,67 @@
-import { useState } from 'react'
-import './styles/app.scss'
+import { QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CssBaseline, StyledEngineProvider } from "@mui/material";
 
-import viteLogo from './assets/brand/vite.svg'
-import reactLogo from './assets/brand/react.svg'
-import typescriptLogo from './assets/brand/typescript.svg'
-import storybookLogo from './assets/brand/storybook.svg'
-import sassLogo from './assets/brand/sass.svg'
-import vitestLogo from './assets/brand/vitest.svg'
+import "react-toastify/dist/ReactToastify.css";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+//Api
+import { queryClient } from "./api/config";
+//ContextAPI
+import { GlobalProvider } from "@contextAPI";
+//Routes
+import { AuthRoutes, MainRoutes } from "@routes";
+import { ToastContainer } from "react-toastify";
 
-export const App = () => {
-	const [count, setCount] = useState(0)
-
-	return (
-		<>
-			<section className='content'>
-				<div className='grid-logo'>
-					<a
-						href='https://vitejs.dev'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={viteLogo}
-							className='logo vite'
-							alt='Vite logo'
-						/>
-					</a>
-					<a
-						href='https://react.dev'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={reactLogo}
-							className='logo react'
-							alt='React logo'
-						/>
-					</a>
-					<a
-						href='https://typescriptlang.org'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={typescriptLogo}
-							className='logo typescript'
-							alt='Typescript logo'
-						/>
-					</a>
-					<a
-						href='https://sass-lang.com'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={sassLogo}
-							className='logo sass'
-							alt='Sass logo'
-						/>
-					</a>
-					<a
-						href='https://storybook.js.org'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={storybookLogo}
-							className='logo storybook'
-							alt='Storybook logo'
-						/>
-					</a>
-					<a
-						href='https://vitest.dev'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img
-							src={vitestLogo}
-							className='logo vitest'
-							alt='Vitest logo'
-						/>
-					</a>
-				</div>
-				<h1>
-					Vite + React + Typescript
-					<br />
-					Sass + Storybook + Vitest
-				</h1>
-				<div className='card'>
-					<button onClick={() => setCount(count + 1)}>
-						count is {count}
-					</button>
-					<p>
-						Edit <code>src/App.tsx</code> and save to test
-						HMR
-					</p>
-				</div>
-				<p className='read-the-docs'>
-					Click on the logos to learn more
-				</p>
-			</section>
-		</>
-	)
+declare module "@mui/material/styles" {
+  interface PaletteColor {
+    50?: string;
+    100?: string;
+    200?: string;
+    300?: string;
+    400?: string;
+    500?: string;
+    600?: string;
+    700?: string;
+    800?: string;
+    900?: string;
+  }
 }
+declare module "@mui/material/IconButton" {
+  interface IconButtonPropsSizeOverrides {
+    "extra-small": true;
+  }
+  interface IconButtonPropsColorOverrides {
+    standard: true;
+  }
+}
+
+declare module "@mui/material/Button" {
+  interface ButtonPropsSizeOverrides {
+    "extra-small": true;
+  }
+  interface ButtonPropsColorOverrides {
+    standard: true;
+  }
+}
+
+const App = () => {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <StyledEngineProvider injectFirst>
+        <GlobalProvider>
+            <CssBaseline />
+            <BrowserRouter>
+              <Routes>
+                <Route path="/*" element={<AuthRoutes />} />
+                <Route path="/main/*" element={<MainRoutes />} />
+              </Routes>
+            </BrowserRouter>
+            <ToastContainer />
+        </GlobalProvider>
+      </StyledEngineProvider>
+    </QueryClientProvider>
+  );
+};
+
+export default App;

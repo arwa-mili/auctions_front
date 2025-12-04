@@ -1,0 +1,368 @@
+{
+  "translations_form": {
+    "labels": {
+      "title": "Translations"
+    }
+  },
+  "transfer_types": {
+    "text": {
+      "transfer_type": "transfer type"
+    },
+    "table": {
+      "title": "Transfer types",
+      "sub_title": "You can manage the list of transfer type available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name",
+        "seat": "Seat",
+        "luggage": "Luggage",
+        "description": "Description",
+        "translations": "Translations"
+      },
+      "table_empty_title": "You haven’t created any transfer types yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "actions": {
+        "new_transfer_type": "New transfer type"
+      }
+    },
+    "form": {
+      "add": {
+        "title": "Create new transfer type",
+        "edit_title": "Edit transfer type"
+      },
+      "type_name": "Type name",
+      "description": "Description",
+      "number_of_seats": "Number of seats",
+      "luggage_capacity": "Luggage capacity",
+      "extra_type": "Extra type",
+      "placeholders": {
+        "description": "Enter description...",
+        "type_name": "Enter type name"
+      }
+    }
+  },
+  "vehicles_types": {
+    "text": {
+      "vehicle_type": "vehicle type"
+    },
+    "table": {
+      "title": "Vehicle types",
+      "sub_title": "You can manage the list of vehicle type available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name",
+        "description": "Description",
+        "translations": "Translations"
+      },
+      "actions": {
+        "add_new_vehicle_type": "New vehicle type"
+      },
+      "table_empty_title": "You haven’t created any vehicle types yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "form": {
+      "add": {
+        "title": "Create new vehicle type",
+        "edit_title": "Edit vehicle type"
+      },
+      "name": "Name",
+      "placeholder_name": "Enter name",
+      "description": "Description",
+      "placeholder_description": "Enter description ..."
+    }
+  },
+  "vehicle_extras_types": {
+    "text": {
+      "vehicle_extra_type": "vehicle extra type"
+    },
+    "table": {
+      "title": "Vehicle extra type",
+      "sub_title": "You can manage the list of vehicle extra type available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name",
+        "icon": "Icon",
+        "description": "Description",
+        "category": "Category",
+        "translations": "Translations"
+      },
+      "actions": {
+        "add_new_vehicle_extra_type": "New vehicle extra type"
+      },
+      "table_empty_title": "You haven’t created any vehicle extra types yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "form": {
+      "add": {
+        "title": "Create new vehicle extra type",
+        "edit_title": "Edit vehicle extra type"
+      },
+      "placeholders": {
+        "name": "Enter name",
+        "description": "Enter description"
+      },
+      "category": {
+        "title": "Category",
+        "amenities": "Amenities",
+        "policies": "Policies"
+      },
+      "icon": "Icon",
+      "upload_icon": "Upload icon"
+    }
+  },
+  "vehicle_brand_modals": {
+    "table": {
+      "title": "Vehicle brands",
+      "sub_title": "You can view the list of vehicle brands available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name"
+      },
+      "table_empty_title": "You haven’t created any vehicle brands yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "vehicle_models": {
+    "table": {
+      "title": "Vehicle models",
+      "sub_title": "You can view the list of vehicle models available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name"
+      },
+      "table_empty_title": "You haven’t created any vehicle models yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "languages": {
+    "table": {
+      "title": "Languages",
+      "sub_title": "You can view the list of languages available in the system.",
+      "columns": {
+        "name": "Name",
+        "code": "Code"
+      },
+      "table_empty_title": "You haven’t created any languages yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "countries": {
+    "table": {
+      "title": "Countries",
+      "sub_title": "You can view the list of countries available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Country Name",
+        "code": "Code",
+        "iso_2": "ISO 2",
+        "iso_3": "ISO 3"
+      },
+      "table_empty_title": "You haven’t created any countries yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "regions": {
+    "table": {
+      "title": "Regions",
+      "sub_title": "You can view the list of regions available in the system.",
+      "columns": {
+        "id": "Id",
+        "code": "Code",
+        "country": "Country Name",
+        "region": "Region",
+        "longitude": "Longitude",
+        "latitude": "Latitude"
+      },
+      "table_empty_title": "You haven’t created any regions yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "cities": {
+    "table": {
+      "title": "Cities",
+      "sub_title": "You can view the list of cities available in the system.",
+      "columns": {
+        "id": "Id",
+        "code": "Code",
+        "country": "Country Name",
+        "region": "Region",
+        "city": "City",
+        "longitude": "Longitude",
+        "latitude": "Latitude"
+      },
+      "table_empty_title": "You haven’t created any cities yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "currencies": {
+    "table": {
+      "title": "Currencies",
+      "sub_title": "You can view the list of currencies available in the system.",
+      "columns": {
+        "name": "Name",
+        "code": "Code",
+        "symbol": "Symbol",
+        "num_code": "Numeric code"
+      },
+      "table_empty_title": "You haven’t created any currencies yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "civilities": {
+    "table": {
+      "title": "Civilities",
+      "sub_title": "You can view the list of civilities available in the system",
+      "columns": {
+        "name": "Name",
+        "miss": "Miss"
+      },
+      "table_empty_title": "You haven’t created any civilities yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  },
+  "airports": {
+    "table": {
+      "title": "Airports",
+      "sub_title": "You can view the list of airports available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name",
+        "country": "Country",
+        "region": "Region",
+        "code": "IATA code",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "iata_code": "IATA code",
+        "icao_code": "ICAO code"
+      },
+      "table_empty_title": "You haven’t created any airports yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "form": {
+      "add": {
+        "title": "Create new airport"
+      },
+      "edit": {
+        "title": "Edit airport"
+      },
+      "labels": {
+        "airport_name": "Airport name",
+        "code": "Airport code"
+      }
+    },
+    "text": {
+      "airport": "Airport"
+    }
+  },
+  "trip_purpose": {
+    "text": {
+      "trip_purpose": "trip purpose"
+    },
+    "table": {
+      "title": "Trip purposes",
+      "sub_title": "You can manage the list of trip purposes available in the system.",
+      "columns": {
+        "name": "Name",
+        "description": "Description",
+        "translations": "Translations"
+      },
+      "table_empty_title": "You haven’t created any  trip purposes yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "actions": {
+        "add_new": "New trip purpose"
+      }
+    },
+    "form": {
+      "add": {
+        "title": "Create new  trip purpose",
+        "edit_title": "Edit  trip purpose"
+      },
+      "name": "Name",
+      "description": "Description",
+      "placeholders": {
+        "description": "Enter description...",
+        "name": "Enter name"
+      }
+    }
+  },
+  "airlines": {
+    "table": {
+      "title": "Airlines",
+      "sub_title": "You can view the list of airlines available in the system.",
+      "columns": {
+        "id": "Id",
+        "name": "Name",
+        "code": "Code"
+      },
+      "table_empty_title": "You haven’t created any airline yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "form": {
+      "name": "Name",
+      "code": "Code",
+      "country": "Country"
+    }
+  },
+  "terms_and_conditions": {
+    "text": {
+      "term_condition": "term and condition"
+    },
+    "table": {
+      "title": "Terms and conditions",
+      "sub_title": "You can manage the list of terms and conditions available in the system.",
+      "columns": {
+        "name": "Name",
+        "description": "Description",
+        "translations": "Translations"
+      },
+      "table_empty_title": "You haven’t created any  terms and conditions yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "actions": {
+        "add_new": "New term and condition"
+      }
+    },
+    "form": {
+      "add": {
+        "title": "Create new term and condition",
+        "edit_title": "Edit term and condition"
+      },
+      "name": "Name",
+      "description": "Description",
+      "placeholders": {
+        "name": "Enter name",
+        "description": "Enter description..."
+      }
+    }
+  },
+  "cancellation_reasons": {
+    "text": {
+      "cancellation_reason": "cancellation reason"
+    },
+    "table": {
+      "title": "Cancellation reasons",
+      "sub_title": "You can manage the list of cancellation reasons available in the system.",
+      "columns": {
+        "name": "Name",
+        "description": "Description",
+        "translations": "Translations"
+      },
+      "table_empty_title": "You haven’t created any cancellation reasons yet.",
+      "table_empty_subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "actions": {
+        "add_new": "New cancellation reason"
+      }
+    },
+    "form": {
+      "add": {
+        "title": "Create new cancellation reason",
+        "edit_title": "Edit cancellation reason"
+      },
+      "name": "Name",
+      "description": "Description",
+      "placeholders": {
+        "name": "Enter name",
+        "description": "Enter description..."
+      }
+    }
+  }
+}

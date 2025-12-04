@@ -1,0 +1,273 @@
+{
+  "users": {
+    "table": {
+      "title": "Users",
+      "sub_title": "You can manage the list of users available in the system.",
+      "columns": {
+        "name": "Name",
+        "type": "Type",
+        "entity": "Entity",
+        "role": "Role",
+        "contact": "Contact",
+        "last_activity": "Last activity",
+        "status": "Status",
+        "verified": "Verified"
+      },
+      "actions": {
+        "add_new_user": "New user"
+      },
+      "filters": {
+        "roles": "Roles"
+      },
+      "messages": {
+        "delete_title": "Delete user",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": " The user has been successfully deleted",
+        "ban_title": "Ban user",
+        "ban_message": "Do you really want to ban {{name}} ?",
+        "success_ban": "The user has been successfully banned",
+        "suspend_title": "Suspend {{name}}",
+        "suspend_message": "Do you really want to suspend {{name}} ?",
+        "success_suspend": "The user has been successfully suspend",
+        "activate_title": "Activate user",
+        "activate_message": "Do you really want to activate {{name}} ?",
+        "success_activate": " The user has been successfully activated"
+      },
+      "empty": {
+        "title": "There are no users listed at the moment.",
+        "message": "Add new users or check back later for updates."
+      }
+    },
+    "user_form": {
+      "title_add": "Create new user",
+      "title_update": "Edit user",
+      "labels": {
+        "first_name": "First name",
+        "last_name": "Last name",
+        "email": "Email",
+        "phone": "Phone number",
+        "zip_code": "Zip code",
+        "country": "Country",
+        "region": "Region",
+        "city": "City",
+        "entity": "Entity",
+        "date_of_birth": "Date of birth",
+        "address": "Address",
+        "civility": "Civility",
+        "role": "Role",
+        "default_language": "Default language"
+      },
+      "placeholders": {
+        "first_name": "Enter first name",
+        "last_name": "Enter last name",
+        "email": "Enter email",
+        "phone": " Enter phone number",
+        "zip_code": "Enter zip code",
+        "date_of_birth": "Date of birth",
+        "address": "Enter an address",
+        "civility": "Select civility",
+        "entity": "Select entity",
+        "role": "Select role",
+        "default_language": "Select default language"
+      },
+      "messages": {
+        "success_add": "The new user has been successfully added",
+        "success_update": "The user has been successfully updated"
+      }
+    }
+  },
+  "roles": {
+    "table": {
+      "title": "Roles",
+      "sub_title": "You can manage the list of roles available in the system.",
+      "columns": {
+        "name": "Name",
+        "entity_type": "Entity type",
+        "permissions": "Permissions",
+        "description": "Description",
+        "created_at": "Created at",
+        "update_at": "Updated at"
+      },
+      "actions": {
+        "add_new_role": "New role"
+      },
+      "filters": {
+        "entity": "Entity"
+      },
+      "messages": {
+        "delete_title": "Delete user",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": " The user has been successfully deleted"
+      },
+      "empty": {
+        "title": "There are no roles listed at the moment.",
+        "message": "Add new roles or check back later for updates."
+      }
+    },
+    "role_form": {
+      "title_add": "Create new role",
+      "title_update": "Edit role",
+      "labels": {
+        "name": "Name",
+        "entity_type": "Entity type"
+      },
+      "placeholders": {
+        "enter_name": "Enter name",
+        "entity_type": "Select entity"
+      },
+      "messages": {
+        "success_add": "The new role has been successfully added",
+        "success_update": "The role has been successfully updated"
+      }
+    },
+    "permissions_form": {
+      "title": "Permissions",
+      "messages": {
+        "success_update": "The role has been successfully updated"
+      }
+    }
+  },
+  "contract_settings": {
+    "title": "Contract settings",
+    "tabs": {
+      "payment_schema": "Payment schema",
+      "legal_setting": "Legal setting"
+    },
+    "labels": {
+      "signature": "Signature",
+      "stamp": "Stamp",
+      "text_upload": "<span>Click to upload</span> or drag and drop SVG, PNG, JPG or GIF (max. 800x400px)",
+      "text_upload_signature": "Click to upload a signature",
+      "text_upload_signature_description": "SVG, PNG, JPG or GIF (resized to 250x250px)"
+    },
+    "buttons": {
+      "sign_here": "Sign here"
+    },
+    "payment_schema": {
+      "default_markup": "Default markup (%)",
+      "pargraph_1": "The customer makes the FULL amount payment to the platform (Drivini), then the amount will be transferred to transfer company (to the banking details that partner indicated when   signing the agreement) while deducting the markup.",
+      "title_1": "How it works:",
+      "item_1": "Your partner provides its products at a negotiated NET rate.",
+      "item_2": "Through the platform (admin carriers), you form the final prices by adding your markup.",
+      "item_3": "Payments for reservations come to the platform bank account, in return you pass the NET price to your partner."
+    },
+    "messages": {
+      "success_update_documents": "Documents has been updated successfully",
+      "success_update_payment": "Payment schema has been updated successfully"
+    }
+  },
+  "translations": {
+    "title": "Multilingual",
+    "sub_title": "Let your website content available in multi-languages. It will be more comfortable for users to know about you in their preferable language.",
+    "labels": {
+      "translate_to": "Translate to"
+    },
+    "alerts": {
+      "warning": "The section <strong>{{section}}</strong> is not fully translated. Translate it into <strong>{{language}}</strong> and attract foreign users."
+    },
+    "empty": {
+      "title": "There are no content localization available at the moment.",
+      "message": "Check back later for updates.",
+      "title_active_language": "There are no active language available at the moment.",
+      "message_active_language": "Active language is the language in which your website is currently displayed. You can change it in the <a>Settings</a> section."
+    },
+    "group": {
+      "empty": {
+        "title": "There are no translation available at the moment."
+      }
+    },
+    "legend_form": {
+      "title": "Legend: Translation settings",
+      "translate": {
+        "translate": "Translate",
+        "title": "The 'Translate' button",
+        "description": "It appears when you click on the translation field. By clicking on this button, the text will be translated automatically."
+      },
+      "actions": {
+        "title": "Translation confirmed or cancelled",
+        "description": "Buttons appear when you click on the translation field. The tick button confirms the translation. The eraser button resets the made changes."
+      },
+      "input_orange": {
+        "title": "Orange mark",
+        "description": "It shows that there is no translation or the translation was done automatically but has not been confirmed by a user."
+      },
+      "input_green": {
+        "title": "Green mark",
+        "description": "It shows that the translation has been confirmed by a user."
+      },
+      "dot_orange": {
+        "title": "Orange indicator in the menu on the left",
+        "description": "It shows that there are texts in the section without translation."
+      },
+      "dot_green": {
+        "title": "Green indicator in the menu on the left",
+        "description": "It shows that all texts in the section have translation."
+      },
+      "dot_grey": {
+        "title": "Grey indicator in the menu on the left",
+        "description": "It shows that there is no texts in the section to be translated."
+      }
+    }
+  },
+  "cancellation_policies": {
+    "text": {
+      "cancellation_policy": " cancellation policy"
+    },
+    "table": {
+      "title": "Cancellation policies",
+      "sub_title": "You can manage the list of cancellation policies available in the system.",
+      "columns": {
+        "name": "Name",
+        "penalty_type": "Penalty type",
+        "deadline": "Deadline",
+        "no_show_penalty": "No-show penalty",
+        "default_policy": "Default policy",
+        "description": "Description"
+      },
+      "actions": {
+        "add_new_policy": "New cancellation policy"
+      },
+      "filters": {
+        "penalty_type": "Penalty type",
+        "deadline": "Deadline",
+        "no_show_penalty": "No-show penalty"
+      },
+      "messages": {
+        "delete_title": "Delete cancellation policy",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": " The cancellation policy has been successfully deleted",
+        "success_update": "The cancellation policy has been successfully updated"
+      },
+      "empty": {
+        "title": "No cancellation policies found!",
+        "message": "No results found at the moment, please check back later or create a new cancellation policy."
+      }
+    },
+    "cancellation_policy_form": {
+      "title_add": "Create new cancellation policy",
+      "title_update": "Edit cancellation policy",
+      "labels": {
+        "name": "Name",
+        "description": "Description",
+        "penality": "Penality",
+        "deadline": "Deadline",
+        "unit": "Unit",
+        "placeholderUnit": "Select unit",
+        "value": "Value",
+        "no_show_penalty": "No-show penalty",
+        "in_amount": "In amount",
+        "in_percentage": "In percentage",
+        "for_free": "For free"
+      },
+      "placeholders": {
+        "description": "Enter description",
+        "name": "Enter name",
+        "penality": "Penality"
+      },
+      "messages": {
+        "success_add": "The new cancellation policy has been successfully added",
+        "success_update": "The cancellation policy has been successfully updated"
+      }
+    }
+  }
+}

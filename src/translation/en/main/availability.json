@@ -1,0 +1,62 @@
+{
+  "availability": {
+    "title": "Availability",
+    "sub_title": "Monitor and manage vehicle availabilities to ensure transfers are scheduled and dispatched efficiently.",
+    "labels": {
+      "carrier": "Carrier"
+    },
+    "buttons": {
+      "add_service": "Out of service",
+      "update_service": "Update service"
+    },
+    "messages": {
+      "past_date_error": "The selected date cannot be in the past.",
+      "event_type_message": "Availability events with the event type 'Transfer' are read-only and cannot be updated.",
+      "delete_title": "Delete event",
+      "delete_message": "Do you really want to delete {{name}} ?",
+      "success_delete": " The event has been successfully deleted"
+    },
+    "calendar": {
+      "labels": {
+        "today": "Today",
+        "next": "Next",
+        "previous": "Back",
+        "month": "Month",
+        "week": "Week",
+        "day": "Day",
+        "more": "{{value}} more",
+        "date": "Date:",
+        "time": "Time:",
+        "driver": "Driver:",
+        "vehicle": "Vehicle:"
+      }
+    },
+    "card_event": {
+      "start_date": "Start date",
+      "end_date": "End date",
+      "driver": "Driver",
+      "event_type": "Event type",
+      "vehicle": "Vehicle",
+      "customer": "Customer"
+    },
+    "vehicle_service_form": {
+      "title_add": "New out of service: {{vehicle}}",
+      "title_update": "Update service",
+      "labels": {
+        "service_type": "Type of service",
+        "title": "Title",
+        "description": "Description",
+        "from": "From",
+        "to": "To"
+      },
+      "placeholders": {
+        "title": "Enter title",
+        "description": "Enter a description"
+      },
+      "messages": {
+        "success_add": "The new out of service has been successfully added",
+        "success_update": "The out of service has been successfully updated"
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "orders_list": {
+    "table": {
+      "title": "Orders",
+      "sub_title": "You have {{number}} order(s) in your inventory.",
+      "table_empty_title": "There are no order listed at the moment.",
+      "table_empty_subtitle": "Check back later for updates.",
+      "paid_from": "{{value}} From",
+      "columns": {
+        "order_number": "Order number",
+        "title": "Title",
+        "customer": "Customer",
+        "paid": "Paid",
+        "order_status": "Order status",
+        "booking_status": "Booking status",
+        "payments_count": "Payments count",
+        "created_at": "Created at",
+        "updated_at": "Updated at",
+        "access_code": "Access code",
+        "carrier": "Carrier"
+      },
+      "filters": {
+        "order_status": "Order status",
+        "carrier": "Carrier"
+      }
+    },
+    "messages": {
+      "access_code_copied": "The access code has been copied successfully."
+    }
+  },
+  "order_details": {
+    "labels": {
+      "general": "General",
+      "payments": "Payments",
+      "invoice": "Invoice",
+      "amount": "AMOUNT",
+      "paid": "PAID",
+      "to_be_paid": "TO BE PAID",
+      "to_refund": "TO REFUND",
+      "refunded": "REFUNDED",
+      "to_be_refunded": "TO BE REFUNDED",
+      "due": "DUE",
+      "included_tax": "Included tax:",
+      "order_page": "Order page",
+      "created_at": "Created at:",
+      "updated_at": "Last update:",
+      "order_number": "Order N°: {{value}}"
+    },
+    "messages": {
+      "no_data": "No data found",
+      "access_code_copied": "The access code has been copied successfully."
+    },
+    "general": {
+      "labels": {
+        "carrier": "Carrier",
+        "customer": "Customer",
+        "trip_parameters": "Trip parameters",
+        "ride_parameters": "Ride parameters",
+        "trip_number": "Trip N° {{value}}",
+        "pickup_location": "Pickup location",
+        "pickup_date": "Pickup date",
+        "drop_off_location": "Drop off location",
+        "drop_off_date": "Drop off date",
+        "passengers": "Passengers",
+        "luggage": "Luggage",
+        "vehicle": "Vehicle",
+        "driver": "Driver",
+        "trip_status": "Trip status",
+        "extra_services": "Extra services",
+        "description": "Description",
+        "services": "Services",
+        "service_name": "Service name",
+        "payment_type": "Transaction type",
+        "unit_price": "Unit price",
+        "quantity": "Quantity",
+        "total_price": "Total price",
+        "guests": "Guests",
+        "full_name": "Full name",
+        "gender": "Gender",
+        "citizenship": "Citizenship",
+        "price": "Price",
+        "is_inclusive": "Included in the room rate"
+      }
+    },
+    "payments": {
+      "table": {
+        "title": "Payments",
+        "columns": {
+          "payment_number": "Payment number",
+          "amount": "Amount",
+          "payment_method": "Payment method",
+          "payment_provider": "Payment provider",
+          "status": "Status",
+          "created_at": "Created at",
+          "paid_at": "Paid at",
+          "due_date": "Due date"
+        },
+        "actions": {
+          "add_new": "New payment"
+        },
+        "tooltip": {
+          "copy": "Copy",
+          "share": "Share",
+          "notify": "Notify"
+        },
+        "empty_title": "You don’t have any payment at the moment.",
+        "empty_message": "Place a new payment or check back later for updates.",
+        "messages": {
+          "delete_order_payment_title": "Delete payment",
+          "delete_order_payment_message": "Are you sure you want to proceed?",
+          "success_delete": "The payment has been deleted successfully",
+          "link_copied": "The link has been copied successfully."
+        }
+      },
+      "payment_form": {
+        "title_add": "Create new payment",
+        "title_update": "Update payment",
+        "labels": {
+          "amount": "Amount",
+          "due_date": "Due date",
+          "paid_At": "Payment date",
+          "payment_profile": "Provider",
+          "billing_mode": "Billing mode",
+          "language": "Language",
+          "currency": "Currency",
+          "status": "Status"
+        },
+        "messages": {
+          "wire_transfer_description_1": "The payment is still unpaid",
+          "wire_transfer_description_2": "Mark this transaction as paid, when you have received it on your bank account. This is a manual process that needs to be done by you.",
+          "success_update": "The payment has been updated",
+          "success_create": "New payment has been created",
+          "payment_link_description": "Certain payment providers may not support currency of this order. We recommend switching to an other payment method, if you encounter the issue."
+        }
+      }
+    },
+    "invoice": {}
+  }
+}

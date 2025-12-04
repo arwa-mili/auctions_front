@@ -1,0 +1,113 @@
+{
+  "places": {
+    "table": {
+      "title": "Places",
+      "sub_title": "You can manage the list of places available in the system.",
+      "columns": {
+        "name": "Name",
+        "category": "Category",
+        "location": "Location",
+        "address": "Address"
+      },
+      "actions": {
+        "add_new_path_place": "New place"
+      },
+      "filters": {
+        "category": "Category"
+      },
+      "messages": {
+        "delete_title": "Delete place",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": " The place has been successfully deleted"
+      },
+      "empty": {
+        "title": "There are no places listed at the moment.",
+        "message": "Add new places or check back later for updates."
+      }
+    },
+    "place_form": {
+      "title_add": "Add new place",
+      "title_update": "Edit place",
+      "labels": {
+        "location_name": "Location name",
+        "location_type": "Location type",
+        "country": "Country",
+        "region": "Region",
+        "longitude": "Longitude",
+        "latitude": "Latitude",
+        "address": "Address"
+      },
+      "placeholders": {
+        "location_name": "Enter a location name",
+        "location_type": "Select a location type",
+        "country": "Select a country",
+        "region": "Select a region",
+        "category": "Select a category",
+        "address": "Enter an address"
+      },
+      "messages": {
+        "success_add": "The new place has been successfully added",
+        "success_update": "The place has been successfully updated"
+      }
+    }
+  },
+  "transfer_zones": {
+    "table": {
+      "title": "Transfer zones",
+      "sub_title": "You can manage the list of transfer zones available in the system.",
+      "columns": {
+        "name": "Name",
+        "areas": "Areas",
+        "description": "Description"
+      },
+      "actions": {
+        "add_new_zone": "New transfer zone"
+      },
+      "filters": {
+        "is_empty": "Is empty"
+      },
+      "empty": {
+        "title": "There are no transfer zones listed at the moment.",
+        "message": "Add new transfer zones or check back later for updates."
+      },
+      "messages": {
+        "delete_title": "Delete transfer zone",
+        "delete_message": "Do you really want to delete {{name}} ?",
+        "success_delete": " The transfer zone has been successfully deleted"
+      }
+    },
+    "h3_coordinates_form": {
+      "title": "Link places to: {{ zone }}",
+      "labels": {
+        "title": "Map selector",
+        "reset_selection": "Reset Selection",
+        "resolution": "Resolution",
+        "selection": "Selection",
+        "cells": "Cells",
+        "empty_message": "Click on the map to add hexagons. Click again to remove. Click a polygon to delete it.",
+        "hexes": "Hexes {{value}}",
+        "r": "R{{value}}",
+        "total_area": "Total {{value}} km2"
+      },
+      "messages": {
+        "success_update": "The transfer zone has been successfully updated"
+      }
+    },
+    "transfer_zone_form": {
+      "title_add": "Add new transfer zone",
+      "title_update": "Edit transfer zone",
+      "labels": {
+        "name": "Name",
+        "description": "Description"
+      },
+      "placeholders": {
+        "name": "Enter name",
+        "description": "Enter description"
+      },
+      "messages": {
+        "success_add": "The new transfer zone has been successfully added",
+        "success_update": "The transfer zone has been successfully updated"
+      }
+    }
+  }
+}

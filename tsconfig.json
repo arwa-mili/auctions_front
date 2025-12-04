@@ -20,6 +20,24 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@api": ["api/index"],
+      "@constants": ["constants/index"],
+      "@components": ["components/index"],
+      "@routes": ["routes/index"],
+      "@contextAPI": ["contextAPI/index"],
+      "@helpers": ["helpers/index"],
+      "@hooks": ["hooks/index"],
+      "@hoc": ["hoc/index"],
+      "@theme": ["theme/theme"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["assets/styles/*"],
+      "@images/*": ["assets/images/*"],
+      "@illustrations/*": ["assets/illustrations/*"],
+      "@icons/*": ["assets/icons/*"],
+      "@translation/*": ["translation/*"]
+    },
     
     /* Additional */
     "esModuleInterop": true,

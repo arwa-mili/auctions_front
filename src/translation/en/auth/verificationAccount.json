@@ -1,0 +1,11 @@
+{
+  "labels": {
+    "title": "Verify your identity",
+    "paragraph_1": "A verification link has been sent to your email <strong>{{email}}</strong>.",
+    "paragraph_2": "Please check your email to verify your account.",
+    "paragraph_3": "If you do not receive a link, please click on the button below."
+  },
+  "buttons": {
+    "send_again": "Send again"
+  }
+}

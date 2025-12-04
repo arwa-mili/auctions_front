@@ -1,0 +1,372 @@
+{
+  "labels": {
+    "name": "Name",
+    "first_name": "First name",
+    "event_type": "Event type",
+    "last_name": "Last name",
+    "full_name": "Full name",
+    "email": "Email",
+    "title": "Title",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "company": "Company",
+    "phone": "Phone number",
+    "birth_date": "Birth date",
+    "region": "Region",
+    "country": "Country",
+    "city": "City",
+    "text_upload": "Click to upload",
+    "description": "Description",
+    "mr": "Mr",
+    "mrs": "Mrs",
+    "miss": "Miss",
+    "system": "System",
+    "carrier": "Carrier",
+    "driver": "Driver",
+    "super_admin": "Super admin",
+    "admin": "Admin",
+    "customer": "Customer",
+    "yes": "Yes",
+    "currency": "Currency",
+    "commission": "Commission",
+    "no": "No",
+    "postal_code": "Postal code",
+    "address": "Address",
+    "company_name": "Company name",
+    "phone_number": "Phone number",
+    "audit_trail": "Audit trail",
+    "text_upload_png_dimensions": "<span>Click to upload</span> or drag and drop PNG (max. {{width}}x{{height}}px)",
+    "provider_type": {
+      "title": "Carrier type",
+      "company": "Company",
+      "individual": "Individual"
+    },
+    "passenger_insurance": " Passenger insurance",
+    "business_registration": "Business registration",
+    "responsible_name": "Responsible name",
+    "contact": "Contact",
+    "upload_logo": "Upload logo",
+    "website": "Website",
+    "companyLabel": "Company name",
+    "transfer_type": "Transfer type",
+    "approve": "Approve",
+    "reject": "Reject",
+    "from": "From",
+    "to": "To",
+    "notifications": "Notifications",
+    "full_screen": "Full screen",
+    "personal_details": "Personal details",
+    "security": "Security",
+    "terms_of_use": "Terms of use",
+    "not_available": "N/A",
+    "active": "Active",
+    "in_active": "Inactive",
+    "translate": "Translate",
+    "automatic_translation": "Automatic translation",
+    "true": "True",
+    "false": "False",
+    "entity": "Entity",
+    "account_status": "Account status",
+    "hours": "Hours",
+    "days": "Days"
+  },
+  "placeholders": {
+    "name": "Name",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "full_name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "company": "Company",
+    "phone": "Phone number",
+    "birth_date": "Birth date",
+    "region": "Select region",
+    "country": "Select country",
+    "city": "Select city",
+    "address": "Address",
+    "select": "Select",
+    "search": "Search",
+    "website": "Website",
+    "postal_code": "Postal code",
+    "description": "Enter description",
+    "title": "Enter title"
+  },
+  "buttons": {
+    "save_changes": "Save changes",
+    "cancel_changes": "Cancel changes",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view_details": "View details",
+    "view": "View",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "save": "Save",
+    "suspend": "Suspend",
+    "ban": "Ban",
+    "activate": "Activate",
+    "decline": "Reject",
+    "approve": "Approve",
+    "next": "Next",
+    "previous": "Previous",
+    "refresh": "Refresh",
+    "download": "Download",
+    "share": "Share",
+    "send": "Send",
+    "preview": "Preview",
+    "upload": "Upload",
+    "accept": "Accept",
+    "reject": "Reject",
+    "update_commission": "Update commission",
+    "review_request": "Review request",
+    "assign": "Assign",
+    "unassign": "Unassign",
+    "copy": "Copy"
+  },
+  "text": {
+    "titleDelete": "Delete {{name}}",
+    "deleteConfirmation": "Do you really want to delete {{element}}",
+    "successCreate": "{{name}} has been created",
+    "successAdd": "The new {{name}} has been successfully added",
+    "successUpdate": "The {{name}} has been successfully updated",
+    "successDelete": " The {{name}} has been successfully deleted",
+    "success_suspend": "The {{name}} has been successfully suspended",
+    "success_rejected": "The {{name}} has been successfully rejected",
+    "success_approved": "The {{name}} has been successfully approved",
+    "success_accepeted": "The {{name}} has been assigned to the carrier successfully",
+    "success_ban": "The {{name}} has been successfully banned",
+    "title_suspend": "Suspend {{name}}",
+    "success_activate": "The {{name}} has been successfully activated",
+    "title_activate": "Activate {{name}}",
+    "activate_confirmation": "Do you really want to activate {{element}}",
+    "suspend_confirmation": "Do you really want to suspend {{element}}",
+    "title_ban": "Ban {{name}}",
+    "ban_confirmation": "Do you really want to ban {{element}}"
+  },
+  "app_bar": {
+    "settings": {
+      "title": "Good Morning, {{name}}",
+      "sub_title": "Project Admin"
+    }
+  },
+  "navbar": {
+    "logout": "Logout"
+  },
+  "tables": {
+    "display_more_data": "Display more data",
+    "save": "Save",
+    "reset_default": "Reset default",
+    "clear": "Clear",
+    "apply": "Apply",
+    "label_less": "See less",
+    "label_more": "See more",
+    "select_all": "Select all",
+    "footer": {
+      "label_displayed_rows": "Page {{from}} of {{to}}",
+      "label_rows_per_page": "Rows per page"
+    }
+  },
+  "validations": {
+    "required_field": "This field is required",
+    "only_numeric": "This field should contain numbers only",
+    "only_letters": "This field should contain letters only",
+    "only_digits": "This field can only contain digits",
+    "number_range": "This field must be between {{min}} and {{max}}",
+    "incorrect_phone_number": "Incorrect phone number",
+    "incorrect_email": "Incorrect email",
+    "incorrect_password": "Password must include at least one uppercase letter, one lowercase letter, one digit, and one special character.",
+    "max_length": "This field must be less than {{value}} characters",
+    "min_length": "This field must be more than {{value}} characters",
+    "min": "This field must be more than {{value}}",
+    "valid_number": "Enter a valid number",
+    "valid_url": "Enter a valid HTTP/HTTPS URLs",
+    "positive_number": "This field must be a positive number",
+    "invalid_color": "Invalid color",
+    "invalid_date": "Invalid date",
+    "passwords_not_match": "Your passwords do no match",
+    "max_date": "This field must be less than {{value}}",
+    "min_date": "This field must be more than {{value}}",
+    "invalid_vin": "This field should only accept uppercase letters and numbers.",
+    "invalid_vin_length": "This field should be 17 characters long."
+  },
+  "my_account": {
+    "my_account": "My account"
+  },
+  "logout": {
+    "logout": "Logout"
+  },
+  "service_type": {
+    "cleaning": "Cleaning",
+    "transfer": "Transfer",
+    "repair": "Repair",
+    "other": "Other",
+    "out_of_service": "Out of service"
+  },
+  "location_types": {
+    "hotel": "Hotel",
+    "airport": "Airport",
+    "accommodation": "Accommodation",
+    "historic_site": "Historic site",
+    "recreation_facility": "Recreation facility"
+  },
+  "entities": {
+    "system": "System",
+    "driver": "Driver",
+    "carrier": "Carrier",
+    "customer": "Customer",
+    "admin": "Admin"
+  },
+  "penalty_types": {
+    "in_amount": "In amount",
+    "in_percentage": "In percentage",
+    "for_free": "For free"
+  },
+  "pricing_categories": {
+    "per_ride": "Per ride",
+    "per_person": "Per person"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "suspended": "Suspended",
+    "banned": "Banned",
+    "rejected": "Rejected",
+    "submitted": "Submitted",
+    "approved": "Approved",
+    "in_progress": "In progress",
+    "pending": "Pending",
+    "initiated": "Initiated",
+    "confirmed": "Confirmed"
+  },
+  "transfer_status": {
+    "canceled": "Canceled",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "in_progress": "In progress"
+  },
+  "tabs_vehicle": {
+    "vehicle_info": "Vehicle info",
+    "documents": "Documents",
+    "photos": "Photos",
+    "features": "Features"
+  },
+  "messages": {
+    "technical_error": {
+      "title": "Something went wrong.",
+      "message": "We're working to fix,please try again shortly"
+    },
+    "filter": {
+      "title": "The filter you applied didn’t return any results.",
+      "message": "Try modifying your filter settings or clear the filter to see more options."
+    },
+    "search": {
+      "title": "Your search didn’t return any results.",
+      "message": "Try adjusting your search terms and try again."
+    }
+  },
+  "trip_status": {
+    "canceled": "Canceled",
+    "completed": "Completed",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "passenger_on_board": "Passenger on board",
+    "on_location": "On location",
+    "on_the_way": "On the way"
+  },
+  "guests": {
+    "adult": "1 adult",
+    "adults": "{{adults}} adults",
+    "child": "1 child",
+    "children": "{{children}} children",
+    "infant": "1 infant",
+    "infants": "{{infants}} infants"
+  },
+  "luggages": {
+    "zero_luggages": "0 luggages",
+    "checked_luggage": "1 checked luggage",
+    "checked_luggages": "{{checkedLuggage}} checked luggages",
+    "hand_luggage": "1 hand luggage",
+    "hand_luggages": "{{handLuggage}} hand luggages"
+  },
+  "trip_type": {
+    "one_way": "One way",
+    "round_trip": "Round trip",
+    "hourly": "Hourly"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "load_more": "Load more",
+    "mark_all_as_read": "Mark all as read",
+    "empty": {
+      "title": "No notifications yet!",
+      "message": "You will receive notifications to keep up-to-date with flash paylinks, merchants, and other relevant information."
+    }
+  },
+  "form_service_element": {
+    "title": "Out of service",
+    "service_type": {
+      "title": "Type of service",
+      "cleaning": "Cleaning",
+      "transfer": "Transfer",
+      "repair": "Repair",
+      "other": "Other"
+    },
+    "form": {
+      "title": "Title",
+      "description": "Description",
+      "from": "From",
+      "to": "To",
+      "placeholders": {
+        "description": "Enter a description"
+      },
+      "add_new_service": {
+        "title": "New out of service: {{vehicle}} ",
+        "add_service": "Out of service",
+        "update_service": "Update service"
+      }
+    }
+  },
+  "card_event": {
+    "start_date": "Start date",
+    "end_date": "End date",
+    "driver": "Driver",
+    "vehicle": "Vehicle",
+    "event_type": "Event type",
+    "customer": "Customer",
+    "booking_type": "Booking type"
+  },
+  "device": {
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "tablet": "Tablet"
+  },
+  "order_status": {
+    "canceled": "Canceled",
+    "completed": "Completed",
+    "confirmed": "Confirmed",
+    "partially_paid": "Partially paid",
+    "partially_refunded": "Partially refunded",
+    "refunded": "Refunded"
+  },
+  "bookings_status": {
+    "canceled": "Canceled",
+    "completed": "Completed",
+    "confirmed": "Confirmed",
+    "partially_paid": "Partially paid",
+    "partially_refunded": "Partially refunded",
+    "refunded": "Refunded",
+    "unpaid": "Unpaid",
+    "paid": "Paid"
+  },
+  "charge_type": {
+    "per_service": "Per service",
+    "per_use": "Per use",
+    "per_person": "Per person",
+    "per_person_by_age": "Per person by age"
+  }
+}

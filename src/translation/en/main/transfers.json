@@ -1,0 +1,66 @@
+{
+  "table": {
+    "title": "Transfers",
+    "sub_title": "You can manage the list of transfers available in the system.",
+    "columns": {
+      "id": "Id",
+      "route": "Route",
+      "pickup_date": "Pickup date",
+      "return_date": "Return date",
+      "paymaster": "Paymaster",
+      "passenger_count": "Passenger count",
+      "luggage_count": "Luggage count",
+      "total_price": "Total price",
+      "transfer_status": "Transfer status",
+      "transfer_type": "Transfer type",
+      "created_at": "Created at",
+      "transfer_dates": "Transfer dates"
+    },
+    "filters": {
+      "transfer_status": "Transfer status",
+      "carriers": "Carriers",
+      "pickup_from": "Pick-up from",
+      "to": "To",
+      "transfer_type": "Transfer type"
+    },
+    "empty": {
+      "title": "There are no transfers listed at the moment.",
+      "message": "Check back later for updates."
+    },
+    "messages": {
+      "accept_request_title": "Approve Transfer Assignment",
+      "accept_request_message": "You are about to approve this {{name}} for the transfer. This action will make the carrier responsible for completing it. Confirm to proceed or cancel to review further. ",
+      "success_accepeted": "The transfer has been assigned to the carrier successfully",
+      "reject_request_title": "Reject Transfer Assignment",
+      "reject_request_message": "You are about to reject this carrier’s request for the transfer. This action will make the transfer available for reassignment. Please confirm or cancel to keep the current status.",
+      "success_rejected": "The transfer has been successfully rejected"
+    }
+  },
+  "transfer_details": {
+    "labels": {
+      "general_info": "General info",
+      "carrier_details": "Carrier details",
+      "paymaster_info": "Paymaster info",
+      "additional_info": "Additional info",
+      "passengers_info": "Passengers info",
+      "driver_languages_preferences": "Driver languages preferences",
+      "flight_number": "Flight number",
+      "comments": "Comments",
+      "title": "Transfer n°: {{value}}",
+      "created_at": "Created at: {{date}}",
+      "pickup_location": "Pickup location",
+      "pickup_date": "Pickup date",
+      "drop_off_location": "Drop off location",
+      "drop_off_date": "Drop off date",
+      "return_date": "Return date",
+      "passengers": "Passengers",
+      "luggage": "Luggage",
+      "vehicle": "Vehicle",
+      "price": "Price",
+      "transfer_type": "Transfer type",
+      "meet_me": "Meet me with a sign",
+      "outward_journey_extra": "Outward journey extra",
+      "return_journey_extra": "Return journey extra"
+    }
+  }
+}

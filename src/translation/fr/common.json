@@ -1,0 +1,9 @@
+{
+  "labels": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "fullName": "Full name",
+    "email": "Email",
+    "password": "Password"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "title": "Sign In to Your Account",
+    "remember_me": "Remember me"
+  },
+  "buttons": {
+    "sign_in": "Sign in"
+  },
+  "links": {
+    "forgot_password": "Forgot Password?"
+  }
+}
